@@ -121,11 +121,11 @@ h3{
     text-shadow: 0 0 15px var(--secondory);
 }
 .home-content p{
+    margin: auto;
     font-family: var(--book);
     font-style:oblique;
     font-size: 4.9rem;
-    font-weight: 500;
-    line-height: 1.8;
+    font-weight: 500;    line-height: 1.8;
     max-width: 1000px;
     text-shadow: 0 0 15px var(--secondory);
 }
@@ -135,10 +135,13 @@ h3{
         margin-bottom: 100px;
     }
     h2{
-        font-size: 40px;
+        font-size: 32px;
     }
     h3{
     font-size: 35px;
+    }
+    .home-content p{
+        font-size: 40px;
     }
     img{
     width: 500px;
