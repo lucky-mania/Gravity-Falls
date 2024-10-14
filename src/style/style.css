@@ -135,13 +135,14 @@ h3{
         margin-bottom: 100px;
     }
     h2{
-        font-size: 32px;
+        font-size: 25px;
     }
     h3{
+    margin-left: 40px;
     font-size: 35px;
     }
     .home-content p{
-        font-size: 40px;
+        font-size: 25px;
     }
     img{
     width: 500px;
