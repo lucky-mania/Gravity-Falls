@@ -139,10 +139,11 @@ h3{
         font-size: 25px;
     }
     h3{
-    margin-left: 40px;
+    margin-left: 50px;
     font-size: 35px;
     }
     .home-content p{
+        margin-left: 50px!important;
         margin: auto;
         font-family: var(--book);
         font-style:oblique;
