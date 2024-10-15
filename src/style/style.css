@@ -76,7 +76,7 @@ html{
 /*HOME//////////////////////////////////////////////////////////////////*/
 .title{
     margin: auto;
-    margin-bottom: 40px;
+    margin-top: -60px;
 }
 section{
     min-height: 100vh;
@@ -153,6 +153,10 @@ h2{
         margin: 3rem 0;
         color: white;
     }
+    /*home*/
+    .title{
+        margin-bottom: 30px;
+    }
     h1{
         margin-bottom: 100px;
     }
@@ -170,9 +174,7 @@ h2{
     img{
     width: 350px;
     }
-    .linha{
-        border: 0;
-    }
+
 }
  
     
