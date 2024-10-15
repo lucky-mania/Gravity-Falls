@@ -207,12 +207,13 @@ a{
         display: flex;
         flex-direction: row;
         padding: 15px;
-        width: 400px;
+        height: 350px;
+        width: 410px;
         border: 3px solid var(--bg-color);
         margin-bottom: 20px;
     }
     .img-monster{
-        width: 190px;
+        width: 100px;
     }
    
     }
