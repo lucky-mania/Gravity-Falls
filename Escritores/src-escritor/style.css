@@ -346,6 +346,7 @@ a{
     /*escritor*/
     .box-escritor{
         display: flex;
+        flex-direction: column;
         padding: 15px;
         margin-bottom: 20px;
 }
