@@ -152,7 +152,11 @@ a{
     margin: auto;
     font-size: 45px!important;  
 }
-
+.title-monster{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
 /*celular*/
 @media(max-width:767px){
     #menu-icon{
