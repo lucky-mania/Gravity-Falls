@@ -17,7 +17,6 @@
     --main-color:#f60b0b;
     --body-color:#E3C75F;
     --secondory:#8C4608;
-
     --book-secondary:"Dancing Script", cursive;
 }
 body{
@@ -45,37 +44,36 @@ html{
     z-index: 100;
     width: 100%;
 }
-/*header(gravity falls)*/
 .logo{
     font-size: 3rem;
-    color: var(--secondory);
+    color: rgb(55, 16, 16);
     font-weight: 800;
     cursor: pointer;
     transition: 0.3s ease;
-    text-shadow: 0 0 25px var(--secondory);
 }
 .logo:hover{
     transform: scale(1.1);
+    color: var(--main-color);
 }
 .navbar a{
     font-size: 2.5rem;
-    color: var(--secondory);
-    margin-left: 10rem;
+    color: var(--text-color);
+    margin-left: 4rem;
     font-weight: 500;
     transition: 0.3 ease;
     border-bottom: 3px solid transparent;
 }
 .navbar a:hover,.navbar a:active{
-    color: rgb(194, 63, 63);
-    border-bottom: 3px solid rgb(194, 63, 63);
+    color: var(--secondory);
+    border-bottom: 3px solid var(--secondory);
 }
-
 #menu-icon{
     font-size: 3.6rem;
-    color: var(--main-color);
+    color: var(--secondory);
     display: none;
 }
-/*HOME*/
+
+/*HOME//////////////////////////////////////////////////////////////////*/
 .title{
     margin: auto;
     margin-bottom: 40px;
@@ -106,7 +104,7 @@ span{
     font-weight: 700;
     margin-top: 10.5rem;
     line-height: 1;
-    text-shadow: 0 0 15px var(--secondory);
+    text-shadow: 0 0 15px var(--bg-color);
 }
 h2{
     margin-left: 40px!important;
@@ -116,29 +114,45 @@ h2{
     font-size: 4.9rem;
     font-weight: 500;
     font-size: 55px;
-    text-shadow: 0 0 15px var(--secondory);
-}
-h3{
-    margin-left: 40px;
-    font-size: var(--book);
-    font-style:oblique;
-    font-size: 40px;
-    font-weight: 400;
-    font-size: 4.9rem;
-    text-shadow: 0 0 15px var(--secondory);
+    text-shadow: 0 0 15px var(--bg-color);
 }
 .home-content p{ 
     margin-left: 40px;
-    font-family: var(--book-secondary);
+    font-family: var(--bg-color);
     font-style:oblique;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;    
     line-height: 1.8;
     max-width: 1000px;
-    text-shadow: 0 0 15px var(--secondory);
+    text-shadow: 0 0 15px var(--bg-color);
 }
 /*celular*/
 @media(max-width:767px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0,0,0,0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius:2rem;
+        border-left: 2px solid var(--secondory);
+        border-bottom: 2px solid var(--secondory);
+        display: none;
+    }
+    .navbar.active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    }
     h1{
         margin-bottom: 100px;
     }
@@ -147,12 +161,10 @@ h3{
         margin-left: 30px;
     }
     .home-content p{
-        margin-left: 50px!important;
-        margin: auto;
+        margin-left: 30px!important;
         font-family: var(--book-secondary);
         font-style:oblique;
         font-weight: 500;
-        margin-left: 20px;
         font-size: 23px;
     }
     img{
