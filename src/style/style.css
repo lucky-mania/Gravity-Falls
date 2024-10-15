@@ -126,6 +126,13 @@ h2{
     max-width: 1000px;
     text-shadow: 0 0 15px var(--bg-color);
 }
+/*monstro*/
+.box{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border: 1px solid var(--bg-color);
+}
 /*celular*/
 @media(max-width:767px){
     #menu-icon{
@@ -171,10 +178,13 @@ h2{
         font-weight: 500;
         font-size: 23px;
     }
-    img{
+    .bill{
     width: 350px;
     }
-
-}
+    /*monster*/
+    .img-monster{
+        width: 100px;
+    }
+    }
  
     
