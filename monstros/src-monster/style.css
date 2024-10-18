@@ -103,6 +103,7 @@ span{
     font-size: 7rem;
     font-weight: 700;
     margin-top: 10.5rem;
+    margin-left: 400px;
     line-height: 1;
     text-shadow: 0 0 15px var(--bg-color);
 }
@@ -166,6 +167,9 @@ a{
 }
 .text-top-2{
     margin-top: -300px;
+}
+.text-top-3{
+    margin-top: -100px;
 }
 /*celular*/
 @media(max-width:767px){
@@ -237,6 +241,9 @@ a{
     }
     .bb{
         display: none;
+    }
+    .home-content h1{
+        margin-left: 80px;
     }
     }
  
