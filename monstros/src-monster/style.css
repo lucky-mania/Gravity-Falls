@@ -163,13 +163,19 @@ a{
     margin-top: -200px;
 }
 .text-top{
-    margin-top: -200px;
+    margin-top: -200px!important;
 }
 .text-top-2{
-    margin-top: -300px;
+    margin-top: -300px!important;
 }
 .text-top-3{
     margin-top: -100px;
+}
+.text-top-4{
+    margin-top: -400px!important;
+}
+.text-top-peri{
+    margin-top: -10px!important;
 }
 /*celular*/
 @media(max-width:767px){
