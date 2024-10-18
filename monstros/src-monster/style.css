@@ -157,6 +157,16 @@ a{
     align-items: center;
     margin-bottom: 30px;
 }
+/*GNOMO*/
+.top-img{
+    margin-top: -200px;
+}
+.text-top{
+    margin-top: -200px;
+}
+.text-top-2{
+    margin-top: -300px;
+}
 /*celular*/
 @media(max-width:767px){
     #menu-icon{
