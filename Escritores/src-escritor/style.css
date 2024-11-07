@@ -231,6 +231,9 @@ a{
   animation: move-up-alternate 0.3s forwards;
 }
 /*dipper*/
+.dipper-h1{
+  margin-left: 300px!important;
+}
 .p-blue{
   color: blue!important;
 }
@@ -369,9 +372,13 @@ a{
     display: flex;
     align-items: center;
 }
+/*dipper*/
 .text-center-dipper{
     display: flex;
     align-items: center;
+}
+.dipper-h1{
+  margin-left: 100px!important;
 }
 /*stanford*/
 .text-center{
