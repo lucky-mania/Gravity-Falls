@@ -135,6 +135,9 @@ a{
         flex-direction: row;
         padding: 15px;
         margin-bottom: 20px;
+        background-color: #8C4608;
+        width: 900px;
+        border-radius: 10px;
 }
 .text-center{
     display: flex;
@@ -227,7 +230,15 @@ a{
   -webkit-animation: move-up-alternate 0.3s forwards;
   animation: move-up-alternate 0.3s forwards;
 }
+/*dipper*/
+.p-blue{
+  color: blue!important;
+}
+/*stanford*/
+.text-center{
 
+  margin-right: 80px;
+}
 @-webkit-keyframes move-up-alternate {
   0% {
     transform: translateY(0);
@@ -300,6 +311,7 @@ a{
     #menu-icon{
         display: block;
     }
+  
     .navbar{
         position: absolute;
         top: 100%;
@@ -349,6 +361,9 @@ a{
         flex-direction: column;
         padding: 15px;
         margin-bottom: 20px;
+        background-color: #8C4608;
+        width: 400px;
+        border-radius: 10px;
 }
 .text-center{
     display: flex;
@@ -357,6 +372,10 @@ a{
 .text-center-dipper{
     display: flex;
     align-items: center;
+}
+/*stanford*/
+.text-center{
+  margin-right: 10px!important;
 }
 
     }
